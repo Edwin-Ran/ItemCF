@@ -39,10 +39,9 @@ class BasedOnSongs:
 
 def test():
     #a = DataProcessor.FileToDict(Util.ConfigUtil.getValue("data","OriginalDataFilePath") + "test.log");
-    a = DataProcessor.FileToDict(Util.ConfigUtil.getValue("data","OriginalDataFilePath") + "searchData_20150929_182.118.58.136.log");
     a.generateAllData();
 
-    b = BasedOnSongs(u"419593707",10);
+    b = BasedOnSongs(u"123456",10);
     print b.getRecommend();
 
 test();

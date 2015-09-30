@@ -30,6 +30,6 @@ class FileUtil:
 
 def test():
     path =  ConfigUtil.getValue("data","OriginalDataFilePath");
-    a = FileUtil(path + u"searchData_20150929_182.118.58.136.log").getInput();
+    a = FileUtil(path + u"test.log").getInput();
 
 test();

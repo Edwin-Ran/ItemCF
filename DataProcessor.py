@@ -88,7 +88,6 @@ class FileToDict:
 
 def test():
     a = FileToDict(Util.ConfigUtil.getValue("data","OriginalDataFilePath") + "test.log");
-    #a = FileToDict(Util.ConfigUtil.getValue("data","OriginalDataFilePath") + "searchData_20150929_182.118.58.136.log");
     #a.fileFrocess();
     #print GlobalVariables.DictBasedOnUser;
     # print '\n';
